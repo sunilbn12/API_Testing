@@ -1,12 +1,9 @@
 package google.maps;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
-
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
-import io.restassured.RestAssured.*;
 import io.restassured.path.json.JsonPath;
 
 public class AddPlace_Google {
@@ -25,10 +22,12 @@ public class AddPlace_Google {
 		System.out.println(js.getString("name"));
 
 		String sbfr = new String("$234.05M");
-		sbfr.replace("$","");
-		//sbfr.substring(1, sbfr.length() - 1);
+		sbfr.replace("$", "");
+		// sbfr.substring(1, sbfr.length() - 1);
 		System.out.println(sbfr);
 
 	}
+
+	
 
 }

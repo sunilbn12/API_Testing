@@ -1,6 +1,5 @@
 package google.maps;
 
-import org.json.JSONPropertyIgnore;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

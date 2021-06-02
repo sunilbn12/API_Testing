@@ -3,7 +3,6 @@ package google.maps;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.payloads.PayloadString;
@@ -38,11 +37,13 @@ public class ParseComplexJson {
 		System.out.println("purchaseAmount "+sum);
 		//Assert.assertEquals(sum, amount, "NOT SAme");
 		
-		Map<Object, Object> map = js.getMap(PayloadString.complexPayload());
+	//	Map<Object, Object> map = js.getMap(PayloadString.complexPayload());
 		
-		for (Entry<Object, Object> entry : map.entrySet())  
-            System.out.println("Key = " + entry.getKey().toString() + 
-                             ", Value = " + entry.getValue().toString());
+		/*
+		 * for (Entry<Object, Object> entry : map.entrySet())
+		 * System.out.println("Key = " + entry.getKey().toString() + ", Value = " +
+		 * entry.getValue().toString());
+		 */
 	}
 
 }

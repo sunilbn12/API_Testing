@@ -31,7 +31,8 @@ public class Demo2 {
 
 			int j = (js.get("Children[" + i + "].Name.size()"));
 			for (int k = 0; k < j; k++) {
-				System.out.println(js.get("Children[" + i + "].Name[" + k + "]"));
+				String n=js.get("Children[" + i + "].Name[" + k + "]");
+				System.out.println(n);
 			}
 
 			System.out.println("");
