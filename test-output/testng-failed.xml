@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="specBuilder.AddPlace_Serialize_SpecBuilder">
+      <class name="Serialization_GoogleMaps.AddPlace_Serialize">
         <methods>
           <include name="addPlace"/>
           <include name="getPlace"/>
         </methods>
-      </class> <!-- specBuilder.AddPlace_Serialize_SpecBuilder -->
+      </class> <!-- Serialization_GoogleMaps.AddPlace_Serialize -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

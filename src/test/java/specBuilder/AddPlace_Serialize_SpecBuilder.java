@@ -12,7 +12,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import pojo_Classes.AddPlcae;
+import pojo_Classes.AddPlaceRequestBody;
 import pojo_Classes.Location;
 
 import static org.hamcrest.Matchers.*;
@@ -22,7 +22,7 @@ import java.util.List;
 
 public class AddPlace_Serialize_SpecBuilder {
 
-	AddPlcae ap = new AddPlcae();
+	AddPlaceRequestBody ap = new AddPlaceRequestBody();
 	Location loc = new Location();
 
 	String place;
